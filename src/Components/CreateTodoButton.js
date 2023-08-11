@@ -1,8 +1,13 @@
-import React from 'react'
+import './Css/CreateTodoButton.css'
 
 function CreateTodoButton() {
   return (
-    <button>Agregar TODOS</button>
+    <button 
+    className='CreateTodoButton'
+    onClick={() => {console.log('Le diste click')}}
+    >
+      +
+    </button>
   )
 }
 
